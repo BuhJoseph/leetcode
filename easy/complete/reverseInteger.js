@@ -4,7 +4,7 @@
  * @param {number} x
  * @return {number}
  */
- var reverse = function(x) {
+var reverse = function(x) {
   var sign = 1;
   if (x < 0) {
       sign = -1;

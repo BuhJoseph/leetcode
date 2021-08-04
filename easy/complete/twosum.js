@@ -5,7 +5,7 @@
  * @param {number} target
  * @return {number[]}
  */
- var twoSum = function(nums, target) {
+var twoSum = function(nums, target) {
   var seen = {};
   for (var i = 0; i < nums.length; i++) {
       var diff = target - nums[i];
