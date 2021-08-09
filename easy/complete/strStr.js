@@ -1,5 +1,8 @@
 // https://leetcode.com/problems/implement-strstr/
 
+// Runtime: Top 18.1%
+// Memory: Top 27.9%
+
 /**
  * @param {string} haystack
  * @param {string} needle
