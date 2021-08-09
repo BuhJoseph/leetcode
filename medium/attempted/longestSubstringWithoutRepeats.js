@@ -8,25 +8,25 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function(s) {
-  var longest = '';
-  var curr = '';
+  var longest = 0;
+  var start = 0;
   var chars = {};
   for (var i = 0; i < s.length; i++) {
+    console.log(longest);
     if (chars[s[i]] === undefined) {
       chars[s[i]] = i;
-      curr = curr + s[i];
     } else {
-      if (curr.length > longest.length) {
-        longest = curr;
+      if (i - start - 1 > longest) {
+        longest = i - start;
       }
-      i = chars[s[i]];
-      curr = '';
-      chars = {};
+      start = chars[s[i]] + 1;
+      chars[s[i]] = i;
     }
   }
-  if (curr.length > longest.length) {
-    longest = curr;
+  console.log(start , i);
+  if (i - start > longest) {
+    longest = i - start;
   }
 
-  return longest.length;
+  return longest;
 };
