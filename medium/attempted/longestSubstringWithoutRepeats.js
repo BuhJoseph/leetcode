@@ -1,5 +1,8 @@
 // https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
+// Runtime: Top 14%
+// Memory: Top 8%
+
 /**
  * @param {string} s
  * @return {number}
