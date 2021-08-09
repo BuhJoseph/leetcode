@@ -1,5 +1,8 @@
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
+// Runtime: Top 70.67%
+// Memory: Top 97.59%
+
 /**
  * @param {number[]} nums
  * @return {number}
