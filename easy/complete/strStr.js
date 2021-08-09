@@ -2,7 +2,7 @@
 
 // Runtime: Top 18.1%
 // Memory: Top 27.9%
-
+// Poor performance most likely due to other users using haystack.indexOf(needle)
 /**
  * @param {string} haystack
  * @param {string} needle
